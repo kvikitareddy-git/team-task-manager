@@ -1,0 +1,2 @@
+@keyframes gradientMove{0%{transform:translate(0)}50%{transform:translate(-25%,-25%)}to{transform:translate(0)}}.inputGroup{position:relative}.inputGroup input{background:#ffffffe6;border:none;border-radius:8px;outline:none;padding:12px;width:100%}.inputGroup label{color:#555;left:12px;position:absolute;top:12px;transition:.3s}.inputGroup input:focus+label,.inputGroup input:valid+label{color:#fff;font-size:12px;top:-10px}
+/*# sourceMappingURL=main.27857561.css.map*/
