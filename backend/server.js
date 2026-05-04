@@ -32,7 +32,7 @@ app.get("/api/test", authMiddleware, (req, res) => {
 app.use(express.static(path.join(__dirname, "../my-app/build")));
 
 // Catch-all route (IMPORTANT)
-app.get("/*", (req, res) => {
+app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../my-app/build", "index.html"));
 });
 
